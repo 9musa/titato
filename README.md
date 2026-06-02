@@ -23,7 +23,7 @@ python --version
 ### Installation
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com
+   git clone https://github.com/9mus/t1c-t4c-t0e.git
    ```
 2. Navigate into the project directory:
    ```bash
@@ -36,7 +36,7 @@ To launch the game interface and start playing against the AI, execute the main 
 python main.py
 ```
 
-##Authors
+## Authors
 [9musa](https://github.com/9musa)
 
 ## License
