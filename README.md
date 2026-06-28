@@ -1,16 +1,29 @@
 # t1c-t4c-t0e
 
-![Python Version](https://img.shields.io/pypi/pyversions/anta)
+![Python Version](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-A graphical Tic Tac Toe game built in Python featuring a Q-Learning agent.
+A graphical Tic Tac Toe game built in Python featuring a Q-learning agent alongside a live training graph.
 
 ## Overview
-This project is an interactive, GUI-based Tic Tac Toe game. Beyond standard local gameplay, it implements a Reinforcement Learning backend. The AI agent plays games against itself or the user, updating its strategies dynamically based on rewards and penalties to achieve an unbeatable playstyle.
+This project is an interactive, GUI-based Tic Tac Toe game. Beyond standard local gameplay, it implements a Reinforcement Learning backend. The AI agent learns through Q-learning, improving by playing 50,000 self-play games and updating a Q-table based on rewards and penalties. Once trained, it provides a challenging opponent for the player.
+
+## Preview
+![T1T4T0](assets/screenshot1.png)
+![T1T4T0](assets/screenshot2.png)
+![T1T4T0](assets/screenshot3.png)
+
+## Features
+- Q-Learning agent
+- Live training graph
+- Human vs AI mode
+- Human vs Human mode
+- Retro-styled Tkinter interface
 
 ## Built With
-* [Python](https://python.org) - Core programming language.
-* [Tkinter](https://python.org) - Graphical user interface framework.
+- [Python](https://python.org) - Core programming language.
+- [Tkinter](https://python.org) - Graphical user interface framework.
+- [Matplotlib](https://matplotlib.org/) - Displays the agent's training progress.
 
 ## Getting Started
 
@@ -19,8 +32,17 @@ Ensure you have Python 3.8 or higher installed on your machine:
 ```bash
 python --version
 ```
+Install Matplotlib to enable the live training graph:
+```bash
+pip install matplotlib
+```
 
 ### Installation
+
+#### For Players
+Download the latest Windows executable from the [Releases](../../releases) page.
+
+#### For Developers
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/9mus/t1c-t4c-t0e.git
@@ -30,14 +52,8 @@ python --version
    cd t1c-t4c-t0e
    ```
 
-## Usage
-To launch the game interface and start playing against the AI, execute the main script:
-```bash
-python main.py
-```
-
 ## Authors
-[9musa](https://github.com/9musa)
+Developed by [9musa](https://github.com/9musa) under Benevolence Labs.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
