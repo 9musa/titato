@@ -1,4 +1,4 @@
-# t1c-t4c-t0e
+# TITATO
 
 ![Python Version](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-blue)
@@ -45,11 +45,11 @@ Download the latest Windows executable from the [Releases](../../releases) page.
 #### For Developers
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/9mus/t1c-t4c-t0e.git
+   git clone https://github.com/9mus/titato.git
    ```
 2. Navigate into the project directory:
    ```bash
-   cd t1c-t4c-t0e
+   cd titato
    ```
 
 ## Authors
