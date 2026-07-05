@@ -28,11 +28,14 @@ This project is an interactive, GUI-based Tic Tac Toe game. Beyond standard loca
 ## Getting Started
 
 ### Prerequisites
+
+#### For Developers
 Ensure you have Python 3.8 or higher installed on your machine:
 ```bash
 python --version
 ```
 Install Matplotlib to enable the live training graph:
+##### Using pip (recommended)
 ```bash
 pip install matplotlib
 ```
@@ -43,13 +46,11 @@ pip install matplotlib
 Download the latest Windows executable from the [Releases](../../releases) page.
 
 #### For Developers
-1. Clone this repository to your local machine:
+Clone this repository to your local machine:
    ```bash
    git clone https://github.com/9mus/titato.git
-   ```
-2. Navigate into the project directory:
-   ```bash
    cd titato
+   python t1t4t0.py
    ```
 
 ## Authors
