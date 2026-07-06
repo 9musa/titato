@@ -299,7 +299,7 @@ else:
 
 loadingFrame = tkinter.Frame(root, background="#000000") # graph frame
 gameFrame = tkinter.Frame(root, background="#000000") # game frame
-logo = tkinter.PhotoImage(file=resourcePath("assets/T1T4T0.png"))
+logo = tkinter.PhotoImage(file=resourcePath("assets/hero.png"))
 logoLabel = tkinter.Label(loadingFrame, image=logo, bg="#000000", borderwidth=0, highlightthickness=0)
 logoLabel.pack(pady=10)
 
@@ -341,7 +341,7 @@ gameFooter = tkinter.Label(
 gameFooter.pack(side="bottom", anchor="e", padx=10, pady=8)
 
 # font
-fontPath = resourcePath("assets/VT323-Regular.ttf")
+fontPath = resourcePath("assets/fonts/VT323-Regular.ttf")
 font_manager.fontManager.addfont(fontPath)
 vt323 = font_manager.FontProperties(fname=fontPath)
 # graph

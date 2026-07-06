@@ -9,9 +9,9 @@ A graphical Tic Tac Toe game built in Python featuring a Q-learning agent alongs
 TITATO is an interactive, GUI-based tic tac toe game. Beyond standard local gameplay, it implements a Reinforcement Learning backend. The AI agent learns through Q-learning, improving by playing 50,000 self-play games and updating a Q-table based on rewards and penalties. Once trained, it provides a challenging opponent for the player.
 
 ## Preview
-![T1T4T0](assets/screenshot1.png)
-![T1T4T0](assets/screenshot2.png)
-![T1T4T0](assets/screenshot3.png)
+![T1T4T0](assets/screenshots/screenshot1.png)
+![T1T4T0](assets/screenshots/screenshot2.png)
+![T1T4T0](assets/screenshots/screenshot3.png)
 
 ## Features
 - Q-Learning agent
