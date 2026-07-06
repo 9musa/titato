@@ -324,7 +324,7 @@ gameLabel.pack(pady=10)
 # footer
 loadingFooter = tkinter.Label(
     loadingFrame,
-    text="© 2026 Benevolence Labs",
+    text="© 2026 Verelous Labs",
     bg="#000000",
     fg="#4a4a4a",
     font=("VT323", 10)
@@ -333,7 +333,7 @@ loadingFooter.pack(side="bottom", anchor="e", padx=10, pady=8)
 # footer
 gameFooter = tkinter.Label(
     gameFrame,
-    text="© 2026 Benevolence Labs",
+    text="© 2026 Verelous Labs",
     bg="#000000",
     fg="#4a4a4a",
     font=("VT323", 10)
